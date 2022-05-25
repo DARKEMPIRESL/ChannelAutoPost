@@ -1,0 +1,68 @@
+{
+    "name": "Channel AutoPost Bot",
+    "description": "Forward new posts of one channel to another channel or group, depends!",
+    "logo": "https://telegra.ph/file/14c9ef2712913cf8ae5dd.jpg",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "bot"
+    ],
+    "repository": "https://github.com/DARKEMPIRESL/ChannelAutoPost",
+    "env": {
+        "APP_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "required": true,
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "required": true,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "required": true,
+            "value": ""
+        },
+        "SESSION": {
+            "description": "String session of the account that you want to use as auto poster! Get it from https://replit.com/@darkempireslbots/DARKCHANNEL?v=1 or Telethon session from @darkStringGenBot ... Leave it blank if you donot wish to use it as userbot.",
+            "required": false,
+            "value": ""
+        },        
+        "OWNER_ID": {
+            "description": "Your ID, to receive notifications",
+            "required": true,
+            "value": ""
+        },        
+        "USE_AS_USERBOT": {
+            "description": "Leave it blank if you don't wanna use it as an userbot",
+            "required": false,            
+            "value": ""
+        },
+        "FROM_CHANNEL": {
+            "description": "Channel ID (with -100) from which you want to forward new posts. Seperate by a space for multiple channel ids",
+            "required": true,
+            "value": ""
+        },
+        "TO_CHANNEL": {
+            "description": "Channel ID (with -100) to where you want to forward new posts for other channels. Only one ID allowed",
+            "required": true,            
+            "value": ""
+        },
+        "REMOVE_POST_CAPTION": {
+            "description": "Leave it blank if you don't want captionless media posts from FROM_CHANNEL",
+            "required": false,            
+            "value": ""
+        },
+        "CUSTOM_FOOTER": {
+            "description": "Message that will be shown at last of all posts, you can use formatters like, **word** for old, __word__ for italics, ~~word~~ for strikethrough and --word-- for underlined text.... leave it blank if you dont want to enable it",
+            "required": false,            
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
