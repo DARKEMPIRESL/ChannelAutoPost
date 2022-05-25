@@ -1,4 +1,6 @@
 # ChannelAutoPost
+
+![Contract-Storing-1155561250](https://user-images.githubusercontent.com/95665347/170169253-4bd788b0-75f7-43d3-bd7d-8ecc8bdee557.jpg)
 A Channel Auto Post (User)Bot To Forward All New Posts Of A Channel To Another!
 
 Make sure to add bot to both/all the channel and promote, if you are using userbot you
