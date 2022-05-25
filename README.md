@@ -74,3 +74,4 @@ Simply just leave the Config as it is.
 ```
 ## Credits:
 >> [Lonami](https://github.com/LonamiWebs), for [Telethon](https://github.com/LonamiWebs/Telethon)
+>> [𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊](https://github.com/DARKEMPIRESL) It's ``me`` 
